@@ -8,8 +8,7 @@ const FILES_TO_CACHE = [
     './css/style.css',
     './js/idb.js',
     './js/index.js',
-    './manifest.json',
-    "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    './manifest.json'
   ];
 // cache resjources
 self.addEventListener('install', function (e) {
